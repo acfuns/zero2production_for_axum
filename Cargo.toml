@@ -12,7 +12,7 @@ path = "src/main.rs"
 name = "zero2prod"
 
 [dependencies]
-axum = "0.5.12"
+axum = "0.5.15"
 hyper = { version = "0.14.20", features = ["full"] }
 serde = { version = "1.0.139", features = ["derive"] }
 tokio = { version = "1.20.0", features = ["full"] }
